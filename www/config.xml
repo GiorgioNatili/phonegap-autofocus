@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gnstudio.pg.datamatrix" version="0.0.1" xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
+        xmlns:gap = "http://phonegap.com/ns/1.0">
+    <name>DataMatrix</name>
+    <description>
+        A sample Apache Cordova application that uses the Barcode plugin.
+    </description>
+    <author email="info@gnstudio.com" href="http://www.gnstudio.com">
+        GNstudio Dev Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<gap:plugin name="org.apache.cordova.camera" />
+	<gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner"  />
+</widget>
